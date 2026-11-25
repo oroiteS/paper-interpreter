@@ -51,7 +51,7 @@ git clone https://github.com/oroiteS/paper-interpreter.git ~/.agents/skills/pape
 ## 运行条件
 
 - 运行环境须支持调度者分别派遣四个阶段 agent，并在审阅后继续联系原第三阶段 agent；阶段及审阅后的修订之间不能并行。
-- 阶段一需要可用的 PDF 处理技能；解读前需要 `kimi-obsidian-markdown`。需要自绘图时还须使用 `nature-figure`；默认优先使用文字或合适的原论文图表。
+- 阶段一需要可用的 PDF 处理技能；解读前需要 `markdown-writing` 的 Obsidian 模式。需要自绘图时还须使用 `nature-figure`；默认优先使用文字或合适的原论文图表。
 - 公式后处理依赖学习库根目录的 `scripts/math.py`；该脚本不在本仓库中。脚本缺失或运行失败时会停止相应步骤并报告。
 - 本技能包含默认 pLLM 阅读视角和上述学习库路径约定；按实际需求修改使用目标或配置。
 
